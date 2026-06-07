@@ -85,7 +85,7 @@ If the user wants to monetize, dual-license, or protect their brand, read **`ref
 
 Once the license is chosen, **write the files into the repo** (the user wants this, not just advice):
 
-1. **`LICENSE`** (or `LICENSE.txt`/`LICENSE.md`) at repo root — use the canonical text from `assets/templates/`, fill in copyright year + holder. GitHub's `licensee` detector recognizes `LICENSE`, `LICENSE.txt`, `LICENSE.md`, `COPYING`.
+1. **`LICENSE`** (or `LICENSE.txt`/`LICENSE.md`) at repo root — copy the **verbatim** canonical text from `assets/templates/`, fill in copyright year + holder. MIT, Apache-2.0, BSD-2/3, ISC, GPL-2.0/3.0, AGPL-3.0, LGPL-2.1/3.0, MPL-2.0, and EPL-2.0 are all **bundled** there; never edit the body of the long licenses. Elastic-2.0/SSPL/PolyForm are not bundled — fetch live (see `assets/templates/README.md`). GitHub's `licensee` detector recognizes `LICENSE`, `LICENSE.txt`, `LICENSE.md`, `COPYING`.
 2. **`NOTICE`** if Apache-2.0 and there are attributions to carry.
 3. **Source file headers** — add `SPDX-License-Identifier:` headers (modern standard; see `references/protection.md` for the REUSE spec and per-license header text).
 4. **Parameter blocks** for BSL/FSL — fill in Change Date, Change License, Additional Use Grant. Templates in `assets/templates/`.
