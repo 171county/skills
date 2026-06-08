@@ -51,6 +51,26 @@
       "skills": [
         "./skills/claude-api"
       ]
+    },
+    {
+      "name": "expert-skills",
+      "description": "Expert-level skills covering AI development, startup strategy, finance, law, and engineering — each built from deep domain research",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/startup-tech-ai-agentic-expert",
+        "./skills/startup-tech-finance-expert",
+        "./skills/startup-tech-strategy-creative",
+        "./skills/ai-discovery-expert",
+        "./skills/ai-current-dev-expert",
+        "./skills/agentic-management-expert",
+        "./skills/ip-law-expert",
+        "./skills/business-management-tech-expert",
+        "./skills/business-tech-law-expert",
+        "./skills/business-finance-expert",
+        "./skills/mcp-expert",
+        "./skills/full-stack-app-expert"
+      ]
     }
   ]
 }
